@@ -1,12 +1,5 @@
 import { Serie } from './serie.js';
 
-/**
- * Conjunto de series de televisión. Cada elemento es una instancia de
- * {@link Serie} y contiene la información necesaria para mostrarse en la
- * tabla y en la tarjeta de detalle. Las rutas de las imágenes y los
- * enlaces provienen de fuentes oficiales y se pueden actualizar sin
- * afectar la estructura del código.
- */
 export const series: Serie[] = [
   new Serie(
     1,
